@@ -140,27 +140,57 @@ Track your progress through the MySQL learning labs. Mark completed items with [
 - [x] **LAB COMPLETED** ✅
 
 ### [12-Stored-Procedures-and-Views](12-Stored-Procedures-and-Views/)
-- [x] Read lab objectives and prerequisites
-- [x] Completed Step 1: Install Python connector
-- [x] Completed Step 2: Connect to MySQL
-- [x] Completed Step 3: Basic stored procedures
-- [x] Completed Step 4: Procedures with parameters
-- [x] Completed Step 5: Error handling and transactions
-- [x] Completed Step 6: Creating and using views
-- [x] Completed Step 7: Index optimization
-- [x] Completed Step 8: Advanced procedures and views
-- [x] Completed Step 9: Business intelligence dashboard
-- [x] Completed lab summary and exercise
-- [x] **LAB COMPLETED** ✅
+- [ ] Read lab objectives and prerequisites
+- [ ] Completed Step 1: Install Python connector
+- [ ] Completed Step 2: Connect to MySQL
+- [ ] Completed Step 3: Basic stored procedures
+- [ ] Completed Step 4: Procedures with parameters
+- [ ] Completed Step 5: Error handling and transactions
+- [ ] Completed Step 6: Creating and using views
+- [ ] Completed Step 7: Index optimization
+- [ ] Completed Step 8: Advanced procedures and views
+- [ ] Completed Step 9: Business intelligence dashboard
+- [ ] Completed lab summary and exercise
+- [ ] **LAB COMPLETED** ✅
+
+### [13-Database-Triggers-and-Events](13-Database-Triggers-and-Events/)
+- [ ] Read lab objectives and prerequisites
+- [ ] Completed Step 1: Install Python connector
+- [ ] Completed Step 2: Connect to MySQL
+- [ ] Completed Step 3: Basic audit triggers
+- [ ] Completed Step 4: BEFORE triggers for validation
+- [ ] Completed Step 5: Business rule enforcement
+- [ ] Completed Step 6: Department budget management
+- [ ] Completed Step 7: Scheduled events
+- [ ] Completed Step 8: Managing triggers and events
+- [ ] Completed Step 9: Advanced trigger concepts
+- [ ] Completed lab summary and exercise
+- [ ] **LAB COMPLETED** ✅
+
+### [14-Performance-Tuning-and-Optimization](14-Performance-Tuning-and-Optimization/)
+- [ ] Read lab objectives and prerequisites
+- [ ] Completed Step 1: Install Python connector and packages
+- [ ] Completed Step 2: Connect to MySQL and enable monitoring
+- [ ] Completed Step 3: Create performance test database
+- [ ] Completed Step 4: Query analysis with EXPLAIN plans
+- [ ] Completed Step 5: Index optimization and testing
+- [ ] Completed Step 6: Query optimization techniques
+- [ ] Completed Step 7: MySQL configuration tuning
+- [ ] Completed Step 8: Performance monitoring dashboard
+- [ ] Completed Step 9: Advanced optimization techniques
+- [ ] Completed Step 10: Performance testing and benchmarking
+- [ ] Completed lab summary and exercise
+- [ ] **LAB COMPLETED** ✅
 
 ## Overall Progress
 
-- [x] All 12 labs completed
-- [x] Comfortable with MySQL basics
-- [x] Ready for advanced topics
-- [x] Mastered database design and management
-- [x] Expert in stored procedures and views
-- [x] Prepared for MySQL certification and DBA roles
+- [ ] All 14 labs completed
+- [ ] Comfortable with MySQL basics
+- [ ] Ready for advanced topics
+- [ ] Mastered database design and management
+- [ ] Expert in stored procedures, views, triggers, and events
+- [ ] Proficient in performance tuning and optimization
+- [ ] Prepared for MySQL certification and DBA roles
 
 ## Notes and Reflections
 
@@ -184,6 +214,15 @@ Use this section to note any challenges, questions, or insights from each lab:
 
 ### Lab 5 Notes:
 - Implemented advanced constraints and validation rules
+
+### Lab 13 Notes:
+- Mastered database triggers and scheduled events
+- Learned automated database operations
+
+### Lab 14 Notes:
+- Analyzed query performance with EXPLAIN plans
+- Optimized indexes and database configuration
+- Implemented performance monitoring and testing
 - Handled constraint violations and modifications
 
 ### Lab 6 Notes:
@@ -198,23 +237,29 @@ Use this section to note any challenges, questions, or insights from each lab:
 - Wrote advanced SQL queries with subqueries and aggregations
 - Optimized query performance and learned pagination
 
-### Lab 9 Notes:
-- Managed complete table lifecycle
-- Performed schema migrations and maintenance operations
+### Lab 12 Notes:
+- Mastered stored procedures and database views
+- Learned advanced database programming techniques
+
+### Lab 13 Notes:
+- Implemented database triggers for automated operations
+- Created scheduled events for maintenance tasks
+- Learned business rule enforcement through triggers
 
 ## Achievements
-- [x] Completed all 9 MySQL virtual labs
+- [ ] Completed all 13 MySQL virtual labs
 - [x] Built comprehensive database management skills
 - [x] Mastered SQL from basic to advanced concepts
 - [x] Gained practical experience with real-world scenarios
 - [x] Prepared for professional database administration
 
 ## Next Steps
+- [ ] **Lab 14**: Performance Tuning and Optimization
+- [ ] **Lab 15**: Database Security and User Management
+- [ ] **Lab 16**: Backup, Recovery, and High Availability
 - [ ] Build a complete database application
 - [ ] Learn about database design and normalization
-- [ ] Explore MySQL performance tuning
 - [ ] Consider MySQL certification
-- [ ] Study advanced topics: stored procedures, triggers, views
 - [ ] Practice with real-world datasets
 - [ ] Contribute to open-source database projects
 

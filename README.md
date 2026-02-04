@@ -77,6 +77,16 @@ By completing all labs, you will be able to:
 **Focus**: Database programming and abstraction
 **Skills**: Stored procedures, database views, index optimization, transaction management, error handling
 
+### [13-Database-Triggers-and-Events](13-Database-Triggers-and-Events/)
+**Duration**: 120 minutes
+**Focus**: Automated database operations and scheduling
+**Skills**: Database triggers, scheduled events, business rule enforcement, audit logging, automated maintenance
+
+### [14-Performance-Tuning-and-Optimization](14-Performance-Tuning-and-Optimization/)
+**Duration**: 150 minutes
+**Focus**: Database performance analysis and optimization
+**Skills**: Query analysis, index optimization, configuration tuning, performance monitoring, advanced optimization techniques
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -111,7 +121,9 @@ Start → 01-Introduction → 02-Installation → 03-Data-Types → 04-Operation
     ↓
 05-Constraints → 06-Functions → 07-Keys → 08-Advanced-Querying → 09-Table-Management
     ↓
-10-Advanced-JOINs → 11-Subqueries → 12-Stored-Procedures-and-Views
+10-Advanced-JOINs → 11-Subqueries → 12-Stored-Procedures-and-Views → 13-Triggers-and-Events
+    ↓
+14-Performance-Tuning-and-Optimization
 ```
 
 ### Lab Files Structure:
@@ -163,6 +175,8 @@ jupyter notebook
 - [ ] **Lab 10**: Mastered advanced JOIN operations and set theory
 - [ ] **Lab 11**: Implemented subqueries and advanced querying techniques
 - [ ] **Lab 12**: Created stored procedures, views, and optimized with indexes
+- [ ] **Lab 13**: Implemented database triggers and scheduled events
+- [ ] **Lab 14**: Analyzed and optimized database performance
 
 **Track your progress**: Use [progress-tracker.md](progress-tracker.md) to mark completed tasks and note your learnings.
 
@@ -282,7 +296,27 @@ mysql-learning-lab/
 │   ├── README.md
 │   ├── examples.sql
 │   └── practice.ipynb
-└── 09-Table-Management/       # Lab 9: Schema management
+├── 09-Table-Management/       # Lab 9: Schema management
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 10-Advanced-JOINs/         # Lab 10: Complex relationships
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 11-Subqueries-and-Advanced-Querying/  # Lab 11: Advanced SQL
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 12-Stored-Procedures-and-Views/  # Lab 12: Database programming
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+└── 13-Database-Triggers-and-Events/  # Lab 13: Automated operations
+    ├── README.md
+    ├── examples.sql
+    └── practice.ipynb
+└── 14-Performance-Tuning-and-Optimization/  # Lab 14: Performance optimization
     ├── README.md
     ├── examples.sql
     └── practice.ipynb
