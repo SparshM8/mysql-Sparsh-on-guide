@@ -8,31 +8,59 @@ By completing all labs, you will be able to:
 - Install and configure MySQL Server
 - Design databases with proper data types and constraints
 - Perform all CRUD operations confidently
-- Write efficient SQL queries
+- Write efficient SQL queries with JOINs and subqueries
+- Implement keys and relationships for data integrity
+- Execute advanced querying techniques
+- Manage table structures throughout their lifecycle
 - Troubleshoot common database issues
-- Apply best practices for data integrity
+- Apply best practices for database design and maintenance
 
-## 📚 Lab Structure
+## 📚 Complete Lab Structure
 
 ### [01-Introduction](01-Introduction/)
-**Duration**: 30 minutes  
-**Focus**: Database basics, connection setup  
-**Skills**: Basic MySQL concepts, Python connectivity
+**Duration**: 30 minutes
+**Focus**: Database basics, connection setup
+**Skills**: Basic MySQL concepts, Python connectivity, database creation
 
 ### [02-Installation](02-Installation/)
-**Duration**: 15 minutes  
-**Focus**: MySQL installation verification  
-**Skills**: Connection testing, troubleshooting
+**Duration**: 15 minutes
+**Focus**: MySQL installation verification
+**Skills**: Connection testing, troubleshooting, service management
 
 ### [03-Data-Types-and-Constraints](03-Data-Types-and-Constraints/)
-**Duration**: 45 minutes  
-**Focus**: Data modeling, integrity constraints  
-**Skills**: Table design, constraint implementation
+**Duration**: 45 minutes
+**Focus**: Data modeling, integrity constraints
+**Skills**: Table design, data types, constraint implementation, CHECK constraints
 
 ### [04-Basic-Operations](04-Basic-Operations/)
-**Duration**: 60 minutes  
-**Focus**: CRUD operations, query techniques  
-**Skills**: Data manipulation, safe operations
+**Duration**: 60 minutes
+**Focus**: CRUD operations, query techniques
+**Skills**: Data manipulation, safe operations, basic SELECT queries
+
+### [05-Constraints](05-Constraints/)
+**Duration**: 45 minutes
+**Focus**: Advanced constraints and data validation
+**Skills**: Complex constraints, data integrity rules, constraint management
+
+### [06-SQL-Functions-and-Transactions](06-SQL-Functions-and-Transactions/)
+**Duration**: 75 minutes
+**Focus**: SQL functions, transactions, and ACID properties
+**Skills**: Built-in functions, transaction management, error handling
+
+### [07-Keys-and-Relationships](07-Keys-and-Relationships/)
+**Duration**: 90 minutes
+**Focus**: Database keys and table relationships
+**Skills**: Primary keys, foreign keys, JOIN operations, referential integrity
+
+### [08-Advanced-Querying](08-Advanced-Querying/)
+**Duration**: 90 minutes
+**Focus**: Complex SQL queries and optimization
+**Skills**: Advanced filtering, subqueries, sorting, pagination, query performance
+
+### [09-Table-Management](09-Table-Management/)
+**Duration**: 90 minutes
+**Focus**: Table lifecycle management
+**Skills**: ALTER TABLE operations, index management, schema migrations, table maintenance
 
 ## 🚀 Getting Started
 
@@ -64,8 +92,16 @@ By completing all labs, you will be able to:
 
 ### Learning Path:
 ```
-Start → 01-Introduction → 02-Installation → 03-Data-Types → 04-Operations → Advanced Topics
+Start → 01-Introduction → 02-Installation → 03-Data-Types → 04-Operations
+    ↓
+05-Constraints → 06-Functions → 07-Keys → 08-Advanced-Querying → 09-Table-Management
 ```
+
+### Lab Files Structure:
+Each lab contains:
+- `README.md`: Detailed instructions and learning objectives
+- `examples.sql`: Comprehensive SQL examples and scripts
+- `practice.ipynb`: Interactive Jupyter notebook with hands-on exercises
 
 ## 🛠️ Lab Environment Setup
 
@@ -96,50 +132,169 @@ jupyter notebook
    ```
 4. Use Colab's built-in MySQL or connect to a cloud database
 
-## 📋 Lab Completion Checklist
+## 📋 Complete Lab Completion Checklist
 
 - [ ] **Lab 1**: Connected to MySQL, created database and table
 - [ ] **Lab 2**: Verified MySQL installation, tested connectivity
 - [ ] **Lab 3**: Designed tables with proper data types and constraints
 - [ ] **Lab 4**: Performed all CRUD operations safely
+- [ ] **Lab 5**: Implemented advanced constraints and validation rules
+- [ ] **Lab 6**: Used SQL functions and managed transactions
+- [ ] **Lab 7**: Created keys and relationships, used JOIN queries
+- [ ] **Lab 8**: Wrote complex queries with advanced filtering and pagination
+- [ ] **Lab 9**: Managed table structures, performed schema migrations
 
 **Track your progress**: Use [progress-tracker.md](progress-tracker.md) to mark completed tasks and note your learnings.
 
 ## 🆘 Troubleshooting
 
 ### Common Issues
-- **Connection Failed**: Check MySQL service is running
-- **Access Denied**: Verify username/password
-- **Import Error**: Install mysql-connector-python
-- **Port Issues**: Ensure port 3306 is accessible
+- **Connection Failed**: Check MySQL service is running and credentials are correct
+- **Access Denied**: Verify username/password and user privileges
+- **Import Error**: Install mysql-connector-python package
+- **Port Issues**: Ensure port 3306 is accessible and not blocked by firewall
+- **Syntax Errors**: Check SQL syntax and data types carefully
+- **Constraint Violations**: Review data before insertion, check foreign key relationships
 
 ### Getting Help
-1. Check the troubleshooting sections in each lab
-2. Review error messages carefully
-3. Test with simple examples first
-4. Search MySQL documentation
+1. Check the troubleshooting sections in each lab's README
+2. Review error messages carefully - they often provide specific guidance
+3. Test with simple examples first to isolate issues
+4. Search MySQL documentation and community forums
+5. Check the lab's examples.sql file for correct syntax patterns
 
 ## 📚 Additional Resources
 
+### Official Documentation
 - [MySQL Official Documentation](https://dev.mysql.com/doc/)
-- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
-- [SQLZoo Practice](https://sqlzoo.net/)
-- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
 
-## 🎓 Certification Preparation
+### Tools and Software
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+- [phpMyAdmin](https://www.phpmyadmin.net/) (web-based administration)
+- [DBeaver](https://dbeaver.io/) (universal database tool)
+
+### Learning Platforms
+- [SQLZoo](https://sqlzoo.net/) - Interactive SQL practice
+- [LeetCode SQL](https://leetcode.com/problemset/database/) - SQL coding challenges
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/)
+
+### Books and Courses
+- "SQL for Data Scientists" by Renee M. P. Teate
+- "Learning SQL" by Alan Beaulieu
+- "MySQL Crash Course" by Ben Forta
+- MySQL certification preparation courses
+
+## 🎓 Certification and Career Preparation
 
 These labs prepare you for:
-- MySQL certification exams
-- Database administrator roles
-- Backend development positions
-- Data analysis careers
+- **MySQL Certification Exams**: Oracle MySQL certifications
+- **Database Administrator Roles**: DBA positions and responsibilities
+- **Backend Development**: Database integration in applications
+- **Data Analysis**: SQL for data manipulation and reporting
+- **DevOps**: Database deployment and maintenance
+
+### Career Paths
+- Database Administrator (DBA)
+- Backend Developer
+- Data Analyst
+- Database Developer
+- System Administrator
+- DevOps Engineer
 
 ## 🤝 Contributing
 
-Found an issue or want to improve the labs? Please submit issues or pull requests!
+Found an issue or want to improve the labs? We welcome contributions!
+
+### Ways to Contribute:
+- Report bugs or issues
+- Suggest improvements to labs
+- Add new exercises or challenges
+- Improve documentation
+- Translate to other languages
+- Create video tutorials
+
+### Contribution Process:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 Repository Structure
+
+```
+mysql-learning-lab/
+├── README.md                    # Main repository documentation
+├── progress-tracker.md          # Learning progress tracking
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Git ignore rules
+├── 01-Introduction/            # Lab 1: Database basics
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 02-Installation/            # Lab 2: MySQL setup
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 03-Data-Types-and-Constraints/  # Lab 3: Data modeling
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 04-Basic-Operations/        # Lab 4: CRUD operations
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 05-Constraints/            # Lab 5: Advanced constraints
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 06-SQL-Functions-and-Transactions/  # Lab 6: Functions & transactions
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 07-Keys-and-Relationships/  # Lab 7: Database relationships
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+├── 08-Advanced-Querying/      # Lab 8: Complex queries
+│   ├── README.md
+│   ├── examples.sql
+│   └── practice.ipynb
+└── 09-Table-Management/       # Lab 9: Schema management
+    ├── README.md
+    ├── examples.sql
+    └── practice.ipynb
+```
+
+## 📊 Learning Analytics
+
+Track your learning journey with our progress tracking system:
+- Mark completed labs and exercises
+- Note areas for review
+- Track time spent on each topic
+- Identify strengths and improvement areas
+
+## 🔄 Version History
+
+- **v1.0**: Initial release with 4 core labs
+- **v2.0**: Added 5 advanced labs covering functions, relationships, querying, and table management
+- **v2.1**: Enhanced interactive notebooks and improved documentation
+
+## 📞 Support
+
+- **Issues**: Report bugs via GitHub Issues
+- **Discussions**: Join community discussions
+- **Email**: Contact maintainers for private support
+- **Documentation**: Check lab-specific troubleshooting sections
+
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
 **Happy Learning!** 🚀
 
-*This virtual lab manual is designed for progressive learning. Take your time with each concept before moving to the next lab.*
+*This comprehensive virtual lab manual provides everything you need to master MySQL. Take your time with each concept, practice regularly, and build your database skills progressively. Remember: consistent practice is the key to mastery!*
