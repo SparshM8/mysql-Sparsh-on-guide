@@ -113,12 +113,53 @@ Track your progress through the MySQL learning labs. Mark completed items with [
 - [x] Completed lab summary and exercise
 - [x] **LAB COMPLETED** ✅
 
+### [10-Advanced-JOINs](10-Advanced-JOINs/)
+- [x] Read lab objectives and prerequisites
+- [x] Completed Step 1: Install Python connector
+- [x] Completed Step 2: Connect to MySQL
+- [x] Completed Step 3: INNER JOIN operations
+- [x] Completed Step 4: LEFT and RIGHT JOIN operations
+- [x] Completed Step 5: FULL OUTER JOIN and self-joins
+- [x] Completed Step 6: Multiple table JOINs
+- [x] Completed Step 7: Set operations (UNION, INTERSECT, EXCEPT)
+- [x] Completed Step 8: Complex relationship queries
+- [x] Completed lab summary and exercise
+- [x] **LAB COMPLETED** ✅
+
+### [11-Subqueries-and-Advanced-Querying](11-Subqueries-and-Advanced-Querying/)
+- [x] Read lab objectives and prerequisites
+- [x] Completed Step 1: Install Python connector
+- [x] Completed Step 2: Connect to MySQL
+- [x] Completed Step 3: Basic subqueries
+- [x] Completed Step 4: Correlated subqueries
+- [x] Completed Step 5: EXISTS and NOT EXISTS
+- [x] Completed Step 6: Advanced aggregation
+- [x] Completed Step 7: Window functions
+- [x] Completed Step 8: Complex nested queries
+- [x] Completed lab summary and exercise
+- [x] **LAB COMPLETED** ✅
+
+### [12-Stored-Procedures-and-Views](12-Stored-Procedures-and-Views/)
+- [x] Read lab objectives and prerequisites
+- [x] Completed Step 1: Install Python connector
+- [x] Completed Step 2: Connect to MySQL
+- [x] Completed Step 3: Basic stored procedures
+- [x] Completed Step 4: Procedures with parameters
+- [x] Completed Step 5: Error handling and transactions
+- [x] Completed Step 6: Creating and using views
+- [x] Completed Step 7: Index optimization
+- [x] Completed Step 8: Advanced procedures and views
+- [x] Completed Step 9: Business intelligence dashboard
+- [x] Completed lab summary and exercise
+- [x] **LAB COMPLETED** ✅
+
 ## Overall Progress
 
-- [x] All labs completed
+- [x] All 12 labs completed
 - [x] Comfortable with MySQL basics
 - [x] Ready for advanced topics
 - [x] Mastered database design and management
+- [x] Expert in stored procedures and views
 - [x] Prepared for MySQL certification and DBA roles
 
 ## Notes and Reflections

@@ -62,6 +62,21 @@ By completing all labs, you will be able to:
 **Focus**: Table lifecycle management
 **Skills**: ALTER TABLE operations, index management, schema migrations, table maintenance
 
+### [10-Advanced-JOINs](10-Advanced-JOINs/)
+**Duration**: 90 minutes
+**Focus**: Complex JOIN operations and set theory
+**Skills**: Multiple table JOINs, set operations (UNION, INTERSECT, EXCEPT), advanced relationship queries
+
+### [11-Subqueries-and-Advanced-Querying](11-Subqueries-and-Advanced-Querying/)
+**Duration**: 90 minutes
+**Focus**: Nested queries and advanced SQL techniques
+**Skills**: Subqueries, correlated subqueries, EXISTS/NOT EXISTS, advanced aggregation, window functions
+
+### [12-Stored-Procedures-and-Views](12-Stored-Procedures-and-Views/)
+**Duration**: 120 minutes
+**Focus**: Database programming and abstraction
+**Skills**: Stored procedures, database views, index optimization, transaction management, error handling
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -95,6 +110,8 @@ By completing all labs, you will be able to:
 Start → 01-Introduction → 02-Installation → 03-Data-Types → 04-Operations
     ↓
 05-Constraints → 06-Functions → 07-Keys → 08-Advanced-Querying → 09-Table-Management
+    ↓
+10-Advanced-JOINs → 11-Subqueries → 12-Stored-Procedures-and-Views
 ```
 
 ### Lab Files Structure:
@@ -143,6 +160,9 @@ jupyter notebook
 - [ ] **Lab 7**: Created keys and relationships, used JOIN queries
 - [ ] **Lab 8**: Wrote complex queries with advanced filtering and pagination
 - [ ] **Lab 9**: Managed table structures, performed schema migrations
+- [ ] **Lab 10**: Mastered advanced JOIN operations and set theory
+- [ ] **Lab 11**: Implemented subqueries and advanced querying techniques
+- [ ] **Lab 12**: Created stored procedures, views, and optimized with indexes
 
 **Track your progress**: Use [progress-tracker.md](progress-tracker.md) to mark completed tasks and note your learnings.
 
